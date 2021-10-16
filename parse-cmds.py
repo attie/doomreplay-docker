@@ -8,7 +8,7 @@ def load_file(filename):
         lines = f.readlines()
 
     lines = [ _.strip() for _ in lines ]
-    lines = filter(lambda _: _ == '' or _[0] != '#', lines)
+    lines = filter(lambda _: _ != '' and _[0] != '#', lines)
     cmds = chain.from_iterable( _.split(',') for _ in lines )
     return expand_cmds(cmds)
 
