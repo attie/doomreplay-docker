@@ -1,0 +1,11 @@
+# this "speed run" is by @attiegrande, on Twitter
+# it clears E1M1 in 450 frames
+#
+# see the following tweets:
+#    - https://twitter.com/tweet2doom/status/1449157460271435777
+#    - https://twitter.com/tweet2doom/status/1449157956096991234
+
+# start of E1M1
+x,e,,e,,e,39-,25-us,22-us>,10-us,17-usr,7-us,us>,p,26-,15-us,10-us>,usl,43-us,7-usr,8-us,13-usr,4-us>,5-us,10-usf,2-usrf>,9-usf,46-us,p,r,17-,4-f
+4-f,13-usf,3-usl<,20-us,5-usr,10-us,p,27-,3-us,11-usr,2-us>,p,37-,p
+# end of E1M1
