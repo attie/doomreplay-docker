@@ -78,5 +78,7 @@ for i, tweet in enumerate(gen_tweets(cmds), start=1):
 cmds = load_file('./play.txt')
 with open(f'./input.txt', 'w') as f:
     for cmd in expand_cmds(cmds):
-        f.write(f'{cmd},')
+        # leading comma is jntentional!...
+        # otherwise we loose the first frame
+        f.write(f',{cmd}')
     f.write('#doomreplay-docker#')
